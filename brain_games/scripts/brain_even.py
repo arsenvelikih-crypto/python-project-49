@@ -1,6 +1,6 @@
 import prompt
 from random import randint
-from brain_games.scripts.cli import welcome_user
+from .cli import welcome_user
 
 
 def is_even(n):
@@ -14,7 +14,8 @@ def question(some):
 def answer_q():
     return prompt.string('Your answer: ')
 
-def main():
+
+def brain_even():
 
 
     name = welcome_user()
@@ -43,6 +44,10 @@ def main():
             break
 
 
+def main():
+    brain_even()
+
+    
 if __name__ == "__main__":
     main()
 
