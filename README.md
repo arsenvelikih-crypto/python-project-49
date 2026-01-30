@@ -13,4 +13,3 @@
 [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=arsenvelikih-crypto_python-project-49)](https://sonarcloud.io/summary/new_code?id=arsenvelikih-crypto_python-project-49)
 [![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=arsenvelikih-crypto_python-project-49)
 [![asciicast](https://asciinema.org/a/NV7EHXWUCyjZrymT.svg)](https://asciinema.org/a/NV7EHXWUCyjZrymT)
-<a href="https://asciinema.org/a/NV7EHXWUCyjZrymT" target="_blank"><img src="https://asciinema.org/a/NV7EHXWUCyjZrymT.svg" /></a>
