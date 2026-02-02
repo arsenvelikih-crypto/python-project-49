@@ -9,3 +9,5 @@ def get_question_and_answer():
     while b > 0:
         a, b = b, a % b
     return numbers, str(a)
+
+print(get_question_and_answer())
