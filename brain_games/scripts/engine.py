@@ -1,5 +1,4 @@
 import prompt
-
 from .cli import welcome_user
 
 

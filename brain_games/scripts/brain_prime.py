@@ -1,5 +1,4 @@
 from brain_games.scripts.games import prime
-
 from .engine import run_game
 
 
