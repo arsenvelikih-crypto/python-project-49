@@ -8,7 +8,6 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "prompt" },
-    { name = "ruff" },
 ]
 
 [package.dev-dependencies]
@@ -17,10 +16,7 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [
-    { name = "prompt", specifier = ">=0.4.1" },
-    { name = "ruff", specifier = ">=0.14.14" },
-]
+requires-dist = [{ name = "prompt", specifier = ">=0.4.1" }]
 
 [package.metadata.requires-dev]
 dev = [{ name = "ruff", specifier = ">=0.14.14" }]
