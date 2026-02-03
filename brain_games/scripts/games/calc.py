@@ -1,7 +1,8 @@
-from random import randint, choice
-
+from random import choice, randint
 
 RULES = 'What is the result of the expression?'
+
+
 def get_question_and_answer():
     a = randint(1, 20)
     b = randint(1, 20)

@@ -13,9 +13,11 @@ def find_current_element():
 
 
 RULES = 'What number is missing in the progression?'
+
+
 def get_question_and_answer():
     num_list = find_current_element()
     index = randint(0, 9)
-    hided_num = str(num_list[index])
+    hidded_num = str(num_list[index])
     num_list[index] = '..'
-    return ' '.join(map(str, num_list)), hided_num
+    return ' '.join(map(str, num_list)), hidded_num

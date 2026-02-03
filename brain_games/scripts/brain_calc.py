@@ -1,8 +1,6 @@
 from brain_games.scripts.games import calc
+
 from .engine import run_game
-
-
-
 
 
 def main():
