@@ -21,4 +21,4 @@ def run_game(game):
             break
 
         if correct_answers == 3 and answer == user_answer:
-            print(f'Congratulations! {name}')
+            print(f'Congratulations {name}!')
