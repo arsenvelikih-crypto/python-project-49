@@ -11,3 +11,6 @@ package-install:
 
 lint:
 	uv run ruff check brain_games
+
+build:
+	uv build
