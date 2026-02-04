@@ -15,6 +15,6 @@ def is_prime(n):
 
 
 def get_question_and_answer():
-    num = randint(2, 100)
+    num = randint(2, 100)  # NOSONAR
     answer = 'yes' if is_prime(num) else 'no'
     return num, answer
