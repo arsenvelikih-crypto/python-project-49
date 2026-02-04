@@ -31,7 +31,7 @@
 
     
     
-## installation guide
+## Installation guide
 
 ## install:
 	uv sync
