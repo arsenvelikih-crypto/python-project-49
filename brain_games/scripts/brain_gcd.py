@@ -1,4 +1,4 @@
-from brain_games.scripts.games import gcd
+from brain_games.games import gcd
 from .engine import run_game
 
 

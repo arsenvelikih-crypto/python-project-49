@@ -4,8 +4,8 @@ RULES = 'What is the result of the expression?'
 
 
 def get_question_and_answer():
-    a = randint(1, 20)
-    b = randint(1, 20)
+    a = randint(1, 20) #NOSONAR
+    b = randint(1, 20) #NOSONAR
     op = choice(['+', '-', '*'])
     match op:
         case '+':
